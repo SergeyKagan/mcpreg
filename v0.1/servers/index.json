@@ -1,0 +1,21 @@
+{
+  "servers": [
+    {
+      "id": "io.github.harbourvest/azure-devops-mcp",
+      "name": "azure-devops-mcp",
+      "description": "Internal Azure DevOps MCP server \u2014 pipeline status, work items, and board queries.",
+      "publisher": {
+        "name": "harbourvest",
+        "url": "https://github.com/harbourvest"
+      },
+      "latestVersion": "0.3.1",
+      "tags": [
+        "azure-devops",
+        "pipelines",
+        "work-items"
+      ]
+    }
+  ],
+  "total": 1,
+  "nextCursor": null
+}
