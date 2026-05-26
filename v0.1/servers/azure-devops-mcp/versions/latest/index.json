@@ -1,0 +1,23 @@
+{
+  "name": "azure-devops-mcp",
+  "version": "0.3.1",
+  "id": "io.github.harbourvest/azure-devops-mcp",
+  "description": "Internal Azure DevOps MCP server \u2014 pipeline status, work items, and board queries.",
+  "publisher": {
+    "name": "harbourvest",
+    "url": "https://github.com/harbourvest"
+  },
+  "license": "MIT",
+  "sourceUrl": "https://github.com/harbourvest/azure-devops-mcp",
+  "packages": [
+    {
+      "registryName": "docker",
+      "name": "ghcr.io/harbourvest/azure-devops-mcp",
+      "version": "0.3.1"
+    }
+  ],
+  "remoteConfig": {
+    "transportType": "http",
+    "url": "https://ado-mcp.internal.harbourvest.com/mcp/"
+  }
+}
