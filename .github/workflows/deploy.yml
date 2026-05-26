@@ -1,5 +1,4 @@
 name: Deploy MCP Registry to GitHub Pages
-
 on:
   push:
     branches: [main]
