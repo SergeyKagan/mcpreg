@@ -1,21 +1,34 @@
 {
   "servers": [
     {
-      "id": "io.github.harbourvest/azure-devops-mcp",
-      "name": "azure-devops-mcp",
-      "description": "Internal Azure DevOps MCP server \u2014 pipeline status, work items, and board queries.",
-      "publisher": {
-        "name": "harbourvest",
-        "url": "https://github.com/harbourvest"
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+        "name": "io.github.harbourvest/ado-remote-mcp",
+        "title": "Azure DevOps MCP Server",
+        "description": "MCP server providing Azure DevOps operations for Harbourvest",
+        "version": "1.0.0",
+        "repository": {
+          "url": "https://github.com/harbourvest/ado-remote-mcp",
+          "source": "github"
+        },
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://mcp.dev.azure.com/harbourvest"
+          }
+        ]
       },
-      "latestVersion": "0.3.1",
-      "tags": [
-        "azure-devops",
-        "pipelines",
-        "work-items"
-      ]
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "statusChangedAt": "2026-05-26T00:00:00Z",
+          "publishedAt": "2026-05-26T00:00:00Z",
+          "updatedAt": "2026-05-26T00:00:00Z",
+          "isLatest": true
+        }
+      }
     }
   ],
-  "total": 1,
-  "nextCursor": null
-}
+  "metadata": {
+    "count": 1
+  }
