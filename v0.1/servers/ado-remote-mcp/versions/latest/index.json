@@ -1,7 +1,7 @@
 {
   "server": {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-    "name": "io.github.harbourvest/ado-remote-mcp",
+    "name": "ado-remote-mcp",
     "title": "Azure DevOps MCP Server",
     "description": "MCP server providing Azure DevOps operations for Harbourvest",
     "version": "1.0.0",
